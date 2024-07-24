@@ -1,0 +1,110 @@
+@font-face
+{
+font-family: myFancyFont;
+src: url('Kalam-Bold.ttf'),
+url('Kalam-Bold.eot');
+}
+@font-face
+{
+font-family: myFancyFont3;
+src: url('Montserrat-MediumItalic.ttf'),
+url('Montserrat-MediumItalic.eot');
+}
+@font-face
+{
+font-family: myFancyFont2;
+src: url('Handlee-Regular.ttf'),
+url('Handlee-Regular.eot');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(wallp.jpg);
+    height:100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:right-top;
+    font-family: sans-serif;
+}
+.login-box{
+  font-family: 'myFancyFont3',times,serif ;
+    width: 320px;
+    height: 420px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+  font-family: 'myFancyFont3',times,serif ;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+h1{
+  font-family: 'myFancyFont3',times,serif ;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.login-box p{
+  font-family: 'myFancyFont3',times,serif ;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.login-box input{
+  font-family: 'myFancyFont3',times,serif ;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login-box input[type="text"], input[type="password"]
+{
+  font-family: 'myFancyFont3',times,serif ;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.login-box input[type="submit"]
+{
+  font-family: 'myFancyFont3',times,serif ;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.login-box input[type="submit"]:hover
+{
+  font-family: 'myFancyFont3',times,serif ;
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box a{
+  font-family: 'myFancyFont3',times,serif ;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+}
+.login-box a:hover
+{
+  font-family: 'myFancyFont3',times,serif ;
+    color: #39dc79;
+}
